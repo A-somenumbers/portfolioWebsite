@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Bitcount+Grid+Single:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bitcount+Grid+Single:wght@100..900&family=VT323&display=swap');
+
+
+:root {
+    --base-color: #000000;
+    --text-color: #ffffff;
+    --primary-color: #238f08;   
+    --secondary-color: #0a6107;
+    --color-1: #031404;
+    --color-2: #043806;
+    --color-3: #085712;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-family: 'Bitcount Grid Single', monospace;
+    color: var(--text-color);
+}
+
+body {
+    padding: 1em;
+    background-color: var(--base-color);
+}
+
+h1, h2, h3 {
+    font-family: 'Bitcount Grid Single', monospace;
+}
+
+nav {
+    margin: 1em auto 3em auto;
+    width: min(1000px, 100%);
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    gap: 2em;
+}
+
+nav li:first-child {
+    margin-right: auto;
+    font-family: 'Bitcount Grid Single', monospace;
+    font-weight: bold;
+
+}
+
+nav a {
+    text-decoration: none;
+    color: var(--text-color);
+}
+
+nav a:hover{
+    text-decoration: underline;
+}
